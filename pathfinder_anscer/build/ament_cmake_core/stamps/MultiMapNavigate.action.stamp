@@ -1,0 +1,11 @@
+# Goal
+geometry_msgs/PoseStamped goal_pose
+string target_map_name
+---
+# Result
+bool success
+string message
+---
+# Feedback
+string current_state
+float32 distance_remaining

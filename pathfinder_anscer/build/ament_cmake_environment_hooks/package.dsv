@@ -1,0 +1,4 @@
+source;share/pathfinder_anscer/local_setup.bash
+source;share/pathfinder_anscer/local_setup.dsv
+source;share/pathfinder_anscer/local_setup.sh
+source;share/pathfinder_anscer/local_setup.zsh

@@ -1,0 +1,10 @@
+<library path="pathfinder_firmware">
+    <class name="pathfinder_firmware/pathfinderInterface"
+      type="pathfinder_firmware::pathfinderInterface"
+      base_class_type="hardware_interface::SystemInterface"
+    >
+      <description>
+        pathfinder Hardware Interface
+      </description>
+    </class>
+  </library>
