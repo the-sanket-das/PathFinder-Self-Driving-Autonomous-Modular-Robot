@@ -1,6 +1,6 @@
 
 # PathFinder: Self-Driving Autonomous Modular Robot
-![Robot Demo](Images/real%20robot.png)
+![Robot Demo](Images/real%20robot.jpg)
 
 This repository contains the codebase for the PathFinder project, a modular self-driving robot platform. The workspace is organized into multiple ROS 2 packages, each responsible for different aspects of robot operation, including navigation, localization, mapping, motion planning, firmware, and more.
 
