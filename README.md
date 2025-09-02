@@ -64,4 +64,8 @@ Global and local planning algorithms and plugins.
 Shared utility functions and helper scripts.
 
 ## Usage
+<<<<<<< HEAD
 1. Use launch files in `pathfinder_bringup/launch/` to start the robot system.
+=======
+1. Use launch files in `pathfinder_bringup/launch/` to start the robot system.
+>>>>>>> 51f4a438da858a2b03e3a2ee0e21bbf9f98f0f85
