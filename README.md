@@ -7,7 +7,7 @@ This repository contains the codebase for the PathFinder project, a modular self
 PathFinder is designed to be a flexible and extensible platform for autonomous robotics . The base robot supports interchangeable modules, such as swapping a scissor lift for a cleaning module, to adapt to various
  tasks like robotic arms, conveyors, or cleaning systems.It leverages ROS 2 for modularity and scalability, supporting features such as multi-map navigation, localization, motion planning, and hardware integration.
  
-![Robot Demo](images/single plate base robot.png)
+![Robot Demo](Images/single plate base robot.png)
 
 ## Workspace Structure
 The workspace contains the following main packages:
@@ -25,8 +25,8 @@ The workspace contains the following main packages:
 - `pathfinder_planning`: Global and local planning algorithms.
 - `pathfinder_utils`: Utility functions and shared code.
 
-![Robot Demo](images/double plate base robot.png)
-![Robot Demo](images/pathfinder with double arm.png)
+![Robot Demo](Images/double plate base robot.png)
+![Robot Demo](Images/pathfinder with double arm.png)
 ## Build Instructions
 This project is made in ROS 2 Jazzy and Ubuntu 24.04 
 
@@ -67,8 +67,8 @@ Global and local planning algorithms and plugins.
 ### pathfinder_utils
 Shared utility functions and helper scripts.
 
-![Robot Demo](images/pathfinder with scissor.png)
-![Robot Demo](images/pathfinder with scissor and conveyor.png)
+![Robot Demo](Images/pathfinder with scissor.png)
+![Robot Demo](Images/pathfinder with scissor and conveyor.png)
 
 
 ## Usage
