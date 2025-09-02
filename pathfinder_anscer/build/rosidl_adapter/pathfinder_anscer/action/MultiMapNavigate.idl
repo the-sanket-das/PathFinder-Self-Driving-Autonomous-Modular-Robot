@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from pathfinder_anscer/action/MultiMapNavigate.action
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module pathfinder_anscer {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct MultiMapNavigate_Goal {
+      geometry_msgs::msg::PoseStamped goal_pose;
+
+      string target_map_name;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct MultiMapNavigate_Result {
+      boolean success;
+
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct MultiMapNavigate_Feedback {
+      string current_state;
+
+      float distance_remaining;
+    };
+  };
+};

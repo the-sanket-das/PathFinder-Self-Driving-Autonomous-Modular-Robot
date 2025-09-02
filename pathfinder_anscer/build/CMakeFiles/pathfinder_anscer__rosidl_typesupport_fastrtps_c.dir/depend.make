@@ -1,0 +1,2 @@
+# Empty dependencies file for pathfinder_anscer__rosidl_typesupport_fastrtps_c.
+# This may be replaced when dependencies are built.

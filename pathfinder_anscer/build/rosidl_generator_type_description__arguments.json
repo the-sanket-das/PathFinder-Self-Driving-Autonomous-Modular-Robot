@@ -1,0 +1,15 @@
+{
+  "package_name": "pathfinder_anscer",
+  "output_dir": "/home/sanket/pathfinder_ws/src/pathfinder_anscer/build/rosidl_generator_type_description/pathfinder_anscer",
+  "idl_tuples": [
+    "/home/sanket/pathfinder_ws/src/pathfinder_anscer/build/rosidl_adapter/pathfinder_anscer:action/MultiMapNavigate.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "action_msgs:/opt/ros/jazzy/share/action_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "unique_identifier_msgs:/opt/ros/jazzy/share/unique_identifier_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

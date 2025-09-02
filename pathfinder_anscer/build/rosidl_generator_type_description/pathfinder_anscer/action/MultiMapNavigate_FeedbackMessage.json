@@ -1,0 +1,85 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "pathfinder_anscer/action/MultiMapNavigate_FeedbackMessage",
+      "fields": [
+        {
+          "name": "goal_id",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "unique_identifier_msgs/msg/UUID"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedback",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "pathfinder_anscer/action/MultiMapNavigate_Feedback"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "pathfinder_anscer/action/MultiMapNavigate_Feedback",
+        "fields": [
+          {
+            "name": "current_state",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "distance_remaining",
+            "type": {
+              "type_id": 10,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "unique_identifier_msgs/msg/UUID",
+        "fields": [
+          {
+            "name": "uuid",
+            "type": {
+              "type_id": 51,
+              "capacity": 16,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "pathfinder_anscer/action/MultiMapNavigate_FeedbackMessage",
+      "hash_string": "RIHS01_3b12cd1c47d472682838c23d272e5dca720b4f445da45c89226aae2809b6379e"
+    },
+    {
+      "type_name": "pathfinder_anscer/action/MultiMapNavigate_Feedback",
+      "hash_string": "RIHS01_876be1657562ef16b76b0c410e04ded9dafccd706a3cd8f258814b130c5c05d9"
+    },
+    {
+      "type_name": "unique_identifier_msgs/msg/UUID",
+      "hash_string": "RIHS01_1b8e8aca958cbea28fe6ef60bf6c19b683c97a9ef60bb34752067d0f2f7ab437"
+    }
+  ]
+}
